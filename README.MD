@@ -15,10 +15,11 @@ run `npm install` in root folder.
 required environment variables are:
 SEED: the seed to be used for the application(no authetication etc yet, just one static seed)
  
-
+### Run
 Run `run dev` run-config in Webstorm for a dev server. 
 
 Dev server will run at `localhost:3000`
+WebSocket will run at `localhost:3001`
 
 Code changes automagically trigger a server restart (no code hot-swap unfortunately :=(  )
 
