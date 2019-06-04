@@ -5,7 +5,6 @@ import * as http from "http";
 import createError = require("http-errors");
 import mongoose from "mongoose";
 import path = require("path");
-import {initializeAuthentication} from "./middlewares/authenticationMiddleware";
 import {startWebsocket} from "./middlewares/websocketMiddleware";
 import routes from "./routes";
 
@@ -15,9 +14,6 @@ app.use(express.json());
 app.use(express.urlencoded({extended: false}));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, "public")));
-
-// authentication
-initializeAuthentication(app);
 
 // allow everything CORS at the moment, not best practice
 app.use(cors());
