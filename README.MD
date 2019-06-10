@@ -46,3 +46,7 @@ Husky is used as a pre-commit hook tool. With it's help, TsLint is called and co
  https://www.npmjs.com/package/husky 
  
  
+# Donations
+I am working on this project out of interest, not to go begging for money. If you want to support me anyways, 
+here is a IOTA donation address:
+EWEG9GEABGTTJGYVXZUXNYWYPSJJGTKAJHHNUSPKOXAMCZBVI9HQUXRBKRPNADVJPMWGDGENSVCPYRKZW9GMIFZSO9
